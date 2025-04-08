@@ -1,0 +1,294 @@
+/*******************************************************************************
+ *  Red AbForti                                                                 *
+ *                                                                              *
+ * Version: 1.0	                                                               *
+ * Developer:  Cesar Gonzalez                                 				           *
+ *******************************************************************************/
+
+
+body {
+  padding: 0;
+  background-color: #024e96;
+}
+
+.btn-primary {
+  background-color: #9966cc;
+  border-color: #9966cc;
+}
+
+.btn-primary:hover {
+  background-color: #993399;
+  border-color: #993399;
+}
+
+.btn-danger {
+  background-color: #f44336;
+  border-color: #f44336;
+}
+
+.btn-danger:hover {
+  background-color: #f72a1b;
+  border-color: #f72a1b;
+}
+
+.btn-success {
+  background-color: #024e96;
+  border-color: #024e96;
+}
+
+.panel-login {
+  background-color: #ffffff !important;
+  /*box-shadow: 5px 0px 77px #333;*/
+}
+
+.clear {
+  clear: both;
+}
+
+.login-panel {
+  box-shadow: 5px 0px 77px #333;
+  margin-top: 150px;
+}
+
+.panel-body {
+  padding: 20px 30px 10px 2px;
+}
+
+.panel-heading {
+  padding: 15px 30px 15px 30px;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.margin-bottom {
+  margin-bottom: 1em;
+}
+
+.margin-top {
+  margin-top: 1em;
+}
+
+.padding-right {
+  padding-right: 15px;
+}
+
+.no-padding-right {
+  padding-right: 0;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.user {
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+/* Forms */
+input.shipping {
+  text-align: right;
+}
+.custom_email_textarea {
+  width: 100%;
+  padding: 10px;
+}
+#invoice_status,
+#invoice_type {
+  margin-top: 23px;
+}
+
+.invoice_product_qty {
+  width: 50px;
+  text-align: center;
+}
+.invoice_type {
+  text-transform: uppercase;
+}
+
+.select-customer {
+  margin-top: 10px;
+}
+
+.delete-row {
+  float: left;
+  margin-top: 4px;
+}
+
+.item-select {
+  float: left;
+  margin: 4px;
+}
+
+.item-input {
+  float: left;
+  width: 65%;
+  margin-left: 10px;
+}
+
+.textarea {
+  width: 100%;
+}
+
+.textarea textarea {
+  width: 100%;
+  padding: 10px;
+  resize: none;
+}
+
+/* Other styles */
+strong.shipping {
+  margin-top: 4px;
+  display: block;
+}
+
+/* Progress bar */
+.progress .bar {
+  display: block;
+  height: 20px;
+}
+.error-list {
+  display: none;
+}
+.progress.progress-danger .bar {
+  background-color: #c13333;
+}
+.progress.progress-warning .bar {
+  background-color: #c1bf33;
+}
+.progress.progress-success .bar { 
+  background-color: #33c133;
+}
+
+.login-form {
+  margin-top: 100px;
+}
+
+.checkbox-list {
+  list-style: none; /* Elimina los puntos de la lista */
+  padding: 0; /* Elimina el relleno predeterminado de la lista */
+  text-align: left; /* Alinea la lista a la izquierda */
+}
+
+.checkbox {
+  display: block; /* Cambia la visualización a bloque para ocupar toda la anchura disponible */
+  margin-bottom: 5px; /* Ajusta el margen inferior según sea necesario */
+}
+
+.oculto {
+  display: none;
+}
+
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  overflow-x: auto;
+}
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #f2f2f2;
+}
+@media screen and (max-width: 600px) {
+  table {
+    width: 100%;
+  }
+  thead {
+    display: none;
+  }
+  tbody tr {
+    display: block;
+    margin-bottom: 20px;
+  }
+  tbody td {
+    display: block;
+    text-align: left;
+  }
+  tbody td:first-child {
+    background-color: #f2f2f2;
+  }
+}
+
+/*invoice-edit.php*/
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+.styled-table thead tr {
+    color: #000000;
+    text-align: left;
+    font-weight: bold;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #00b7ff;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #0b03ff;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #efdeb8;
+    cursor: pointer;
+}
+
+/* provider-edit.php*/
+.mando {
+  color:#ffffff;
+}
+
+.btn-flecha {
+  display: inline-block;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.btn-flecha:hover {
+  background-color: #0056b3;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  
+  color: black;
+}
+
+
+/* Estilos para el título */
+.header-container h1 {
+  margin: 10px;
+  flex-grow: 1;
+  text-align: center;
+}

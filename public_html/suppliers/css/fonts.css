@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Helvetica Now';
+    src: url('../fonts/HelveticaNow-Regular.woff2') format('woff2'),
+         url('../fonts/HelveticaNow-Regular.woff') format('woff'),
+         url('../fonts/HelveticaNow-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Now';
+    src: url('../fonts/HelveticaNow-Bold.woff2') format('woff2'),
+         url('../fonts/HelveticaNow-Bold.woff') format('woff'),
+         url('../fonts/HelveticaNow-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}

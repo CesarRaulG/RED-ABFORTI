@@ -1,0 +1,183 @@
+/*
+ * Skin: Green
+ * -----------
+ */
+
+.skin-green .main-header .navbar {
+  background-color: #323677;
+}
+.skin-green .main-header .navbar .nav > li > a {
+  color: #ffffff;
+}
+.skin-green .main-header .navbar .nav > li > a:hover,
+.skin-green .main-header .navbar .nav > li > a:active,
+.skin-green .main-header .navbar .nav > li > a:focus,
+.skin-green .main-header .navbar .nav .open > a,
+.skin-green .main-header .navbar .nav .open > a:hover,
+.skin-green .main-header .navbar .nav .open > a:focus,
+.skin-green .main-header .navbar .nav > .active > a {
+  background: rgba(0, 0, 0, 0.1);
+  color: #f6f6f6;
+}
+.skin-green .main-header .navbar .sidebar-toggle {
+  color: #ffffff;
+}
+.skin-green .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: rgba(0, 0, 0, 0.1);
+  text-decoration: none; /* Elimina el subrayado de todos los enlaces */
+
+}
+.skin-green .main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+.skin-green .main-header .navbar .sidebar-toggle:hover {
+  background-color: #024e96;
+}
+@media (max-width: 767px) {
+  .skin-green .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-green .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-green .main-header .navbar .dropdown-menu li a:hover {
+    background: #024e96;
+  }
+}
+.skin-green .main-header .logo {
+  background-color: #323676;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-green .main-header .logo:hover {
+  background-color: #024e96;
+}
+.skin-green .main-header li.user-header {
+  background-color: #024e96;
+}
+.skin-green .content-header {
+  background: transparent;
+}
+.skin-green .wrapper,
+.skin-green .main-sidebar,
+.skin-green .left-side {
+  background: linear-gradient(45deg, #131313, #323677, #323677);
+}
+.skin-green .user-panel > .info,
+.skin-green .user-panel > .info > a {
+  color: #fff;
+}
+.skin-green .sidebar-menu > li.header {
+  color: #e0e8ec;
+  background: #323676;
+}
+.skin-green .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}s
+.skin-green .sidebar-menu > li:hover > a,
+.skin-green .sidebar-menu > li.active > a,
+.skin-green .sidebar-menu > li.menu-open > a {
+  color: #fff;
+  background: #111111;
+}
+.skin-green .sidebar-menu > li.active > a {
+  border-left-color: #024e96;
+}
+.skin-green .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #111111a8;
+}
+.skin-green .sidebar a {
+  font-family: Arial, sans-serif;
+  font-size: 15px; 
+  font-weight: 400; 
+  color: #f0e8e8;
+}
+.skin-green .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-green .sidebar-menu .treeview-menu > li > a {
+  color: #ffffffa7;
+  font-weight: bold;
+}
+.skin-green .sidebar-menu .treeview-menu > li.active > a,
+.skin-green .sidebar-menu .treeview-menu > li > a:hover {
+  color: #fff ;
+}
+.skin-green .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #374850;
+  margin: 10px 10px;
+}
+.skin-green .sidebar-form input[type="text"],
+.skin-green .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+}
+.skin-green .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-green .sidebar-form input[type="text"]:focus,
+.skin-green .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+.skin-green .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-green .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+
+/*Documentos moral */
+
+.panel-body .row {
+  margin-bottom: 20px;
+}
+.col-xs-12 .col-sm-6 {
+  margin-left: -20px;
+}
+
+.col-xs-7 {
+  margin-left: -20px;
+}
+
+.panel-body .row .mb-3{
+  margin-left: 16px;
+
+}
+
+.invalid-tooltip {
+  margin-left: 16px;
+  color: red;
+}
+
+.containerji{
+  padding-right: 15px;
+    padding-left: 22px;
+    
+}
+
+.small-input {
+  width: 150px; /* Ajusta el ancho según tus necesidades */
+}
+
+.form-group {
+  margin-left: 10px;
+}
+
+.dataTables_filter {
+  float: right;
+  margin-bottom: 15px;
+}
